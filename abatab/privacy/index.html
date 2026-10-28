@@ -1,0 +1,32 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Privacy policy for Abatab by SaurusLex. How tab information and preferences are processed locally."><title>Abatab Privacy Policy</title><link rel="stylesheet" href="../../styles.css"></head><body><header><a href="../../">App policies</a><span aria-hidden="true"> / </span><span>Abatab</span></header><main><h1>Abatab Privacy Policy</h1>
+<p>Last updated: October 28, 2026</p>
+<p>Abatab is a browser extension developed by SaurusLex. It counts open tabs and windows, shows tab counts grouped by website, and lets you customize the toolbar counter.</p>
+<h2>Information processed on your device</h2>
+<p>Abatab queries Chrome&#x27;s tab and window metadata to calculate tab and window counts and identify which tabs belong to each window. It uses the URLs of open tabs to extract website domains for the Stats view. Chrome&#x27;s tab metadata can also contain information such as page titles; Abatab does not use titles in its statistics or save them.</p>
+<p>These calculations take place locally in your browser. Domain statistics are recalculated from the open tabs when the popup loads or you change the Stats scope. URLs and domain statistics are not written to persistent storage. Abatab does not read Chrome&#x27;s history database or build a record of past website visits.</p>
+<p>Abatab does not read webpage bodies, forms, passwords, cookies, or personal messages. It does not inject content scripts into websites.</p>
+<h2>Settings stored locally</h2>
+<p>Abatab uses Chrome&#x27;s extension-specific local storage (<code>chrome.storage.local</code>) to remember only these preferences:</p>
+<ul>
+<li>Whether the toolbar badge counts tabs in the current window or all windows.</li>
+<li>Whether the Stats view includes the current window or all windows.</li>
+<li>The selected badge color.</li>
+</ul>
+<p>The extension does not use <code>chrome.storage.sync</code> to synchronize these settings between devices.</p>
+<h2>How information is used</h2>
+<p>Tab and window metadata is used only to provide the counts, domain grouping, and toolbar badge that you see in Abatab. Saved preferences are used only to apply your selected options.</p>
+<p>Abatab does not use this information for advertising, profiling, credit decisions, or unrelated purposes.</p>
+<h2>Transmission, sharing, and analytics</h2>
+<p>The extension does not send tab URLs, domain statistics, counts, or preferences to the developer or to third parties. It contains no analytics, advertising, or telemetry services and does not require an Abatab account.</p>
+<p>Abatab does not sell or transfer the information it processes. It does not load or execute remotely hosted code. This policy describes the extension itself; Chrome, Chrome Web Store, and any third-party website you choose to open operate under their own privacy policies.</p>
+<h2>Permissions</h2>
+<ul>
+<li><strong>tabs:</strong> provides access to tab URLs so Abatab can group open tabs by domain in the Stats view. Abatab also uses Chrome&#x27;s tab and window APIs to calculate counts and update the toolbar badge as tabs and windows change.</li>
+<li><strong>storage:</strong> saves the three local preferences described above.</li>
+</ul>
+<h2>Retention and removal</h2>
+<p>Abatab does not persist tab URLs, domain statistics, or a browsing history. Its saved preferences remain in the extension&#x27;s local browser storage until that storage is cleared or the extension is removed. Closing the popup, restarting Chrome, or disabling Abatab does not by itself delete those preferences. Removing the extension clears its Chrome local storage.</p>
+<p>You can change the preferences in Abatab&#x27;s popup. Disabling or removing the extension stops its processing while it is disabled or removed. Because the extension does not transmit this information to the developer, there is no developer-held copy of your tab data to delete.</p>
+<h2>Contact</h2>
+<p>For questions about Abatab&#x27;s privacy practices, contact SaurusLex at <a href="mailto:costinalex12@gmail.com">costinalex12@gmail.com</a>.</p>
+<p>If you choose to email the developer, your email address, message, and any information you voluntarily provide will be received through the developer&#x27;s email service and used to respond to your request. This correspondence is separate from the extension&#x27;s local storage; sending an email does not give the developer access to your open tabs or saved preferences.</p></main><footer><span>SaurusLex</span><a href="PRIVACY.md">Plain-text policy</a><a href="mailto:costinalex12@gmail.com">Contact</a></footer></body></html>
